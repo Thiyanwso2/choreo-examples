@@ -17,8 +17,8 @@ ENV DISABLE_DEV_SERVER_HOST_CHECK=true
 ENV HTTPS=false
 
 # Install dependencies
-# RUN npm install --save --legacy-peer-deps 
-RUN npm install
+RUN npm install --save --legacy-peer-deps 
+#RUN npm install
 
 USER 10001
 
